@@ -1,0 +1,22 @@
+@import "/styles/common";
+.container {
+  max-width: $innerWidth;
+  overflow: auto;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  margin-top: 19px;
+}
+.addOracle {
+  background: none;
+  color: #1AB2FF;
+  border: 1px solid #1AB2FF;
+  cursor: pointer; 
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 31px;
+  padding-bottom: 3px;
+  float: right;
+  margin-top: 21px;
+  font-weight: 100;
+}

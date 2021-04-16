@@ -1,0 +1,147 @@
+@import './common.scss';
+
+.aboutMarginTop{
+  margin-top: 20px;
+}
+
+.aboutContentData {
+  max-width: $innerWidth;
+  margin: 0 auto;;
+  padding: 20px 40px;
+  color: white;
+  font-weight: 700;
+  border-radius: 8px 8px 0px 0px;
+}
+
+
+.active {
+  border-bottom: 3px solid white;
+}
+
+.swapDataContainer{
+  max-width: $innerWidth;
+  margin: 0 auto;
+  padding: 60px 40px;
+  background: rgba(45, 58, 65, 1);
+}
+
+.swapDataValueContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.leftSwap{
+  width: 280px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction:column;
+  height: 320px;
+}
+
+.rightSwap{
+  background: linear-gradient(92.51deg, #1d2129, #2f1c25);
+  border-radius: 8px;
+  width: 640px;
+  height: 320px;
+  margin-left: 20px;
+  display: flex;
+}
+
+
+.card {
+  border-radius: 8px;
+  background: $bgBlack;
+  color: $blueNumber;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction:column;
+}
+
+.cardValue {
+  font-weight: 700;
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.cardBalance {
+  font-weight: 700;
+  font-size: 14px;
+  word-break: break-all;
+  color: #52CCA3;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.cardLabel {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.rightCard {
+  border-radius: 8px;
+  color: $blueNumber;
+  height: 140px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightCardValue {
+  font-weight: 700;
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.rightCardLabel {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.rightSwapData{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightSwapExecute{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fontWeightClass {
+  font-weight: 700;
+}
+
+.actionTitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.actionInput {
+  text-align: center;
+}
+
+.buttonGroup {
+  text-align: center;
+  margin-top: 20px;
+  button {
+    width: 270px;
+  }
+}
+
+.errorMessage {
+  color: red;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}

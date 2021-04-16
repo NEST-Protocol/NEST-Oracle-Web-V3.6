@@ -1,0 +1,1127 @@
+{
+  "contractName": "INest_NToken",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Approval",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Transfer",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "spender",
+          "type": "address"
+        }
+      ],
+      "name": "allowance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "approve",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "transferFrom",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "voteFactory",
+          "type": "address"
+        }
+      ],
+      "name": "changeMapping",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "increaseTotal",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "checkBlockInfo",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "createBlock",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "recentlyUsedBlock",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "checkBidder",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "bidder",
+          "type": "address"
+        }
+      ],
+      "name": "changeBidder",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"}],\"name\":\"allowance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"bidder\",\"type\":\"address\"}],\"name\":\"changeBidder\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"voteFactory\",\"type\":\"address\"}],\"name\":\"changeMapping\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"checkBidder\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"checkBlockInfo\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"createBlock\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"recentlyUsedBlock\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"increaseTotal\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"recipient\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"recipient\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"allowance(address,address)\":{\"details\":\"Returns the remaining number of tokens that `spender` will be allowed to spend on behalf of `owner` through {transferFrom}. This is zero by default. This value changes when {approve} or {transferFrom} are called.\"},\"approve(address,uint256)\":{\"details\":\"Sets `amount` as the allowance of `spender` over the caller's tokens. Returns a boolean value indicating whether the operation succeeded. IMPORTANT: Beware that changing an allowance with this method brings the risk that someone may use both the old and the new allowance by unfortunate transaction ordering. One possible solution to mitigate this race condition is to first reduce the spender's allowance to 0 and set the desired value afterwards: https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729 Emits an {Approval} event.\"},\"balanceOf(address)\":{\"details\":\"Returns the amount of tokens owned by `account`.\"},\"changeBidder(address)\":{\"details\":\"\\u8f6c\\u8ba9\\u521b\\u5efa\\u8005\",\"params\":{\"bidder\":\"\\u65b0\\u521b\\u5efa\\u8005\\u5730\\u5740\"}},\"changeMapping(address)\":{\"details\":\"\\u91cd\\u7f6e\\u6295\\u7968\\u5408\\u7ea6\\u65b9\\u6cd5\",\"params\":{\"voteFactory\":\"\\u6295\\u7968\\u5408\\u7ea6\\u5730\\u5740\"}},\"checkBidder()\":{\"details\":\"\\u67e5\\u8be2\\u521b\\u5efa\\u8005\",\"returns\":{\"_0\":\"\\u521b\\u5efa\\u8005\\u5730\\u5740\"}},\"checkBlockInfo()\":{\"details\":\"\\u67e5\\u8be2\\u533a\\u5757\\u4fe1\\u606f\",\"returns\":{\"createBlock\":\"\\u521d\\u59cb\\u533a\\u5757\\u6570\",\"recentlyUsedBlock\":\"\\u6700\\u8fd1\\u6316\\u77ff\\u589e\\u53d1\\u533a\\u5757\"}},\"increaseTotal(uint256)\":{\"details\":\"\\u589e\\u53d1\",\"params\":{\"value\":\"\\u589e\\u53d1\\u6570\\u91cf\"}},\"totalSupply()\":{\"details\":\"Returns the amount of tokens in existence.\"},\"transfer(address,uint256)\":{\"details\":\"Moves `amount` tokens from the caller's account to `recipient`. Returns a boolean value indicating whether the operation succeeded. Emits a {Transfer} event.\"},\"transferFrom(address,address,uint256)\":{\"details\":\"Moves `amount` tokens from `sender` to `recipient` using the allowance mechanism. `amount` is then deducted from the caller's allowance. Returns a boolean value indicating whether the operation succeeded. Emits a {Transfer} event.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/D/lianer/002.\\u9879\\u76ee/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INest_NToken.sol\":\"INest_NToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/lianer/002.\\u9879\\u76ee/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INest_NToken.sol\":{\"keccak256\":\"0xe7f3d3bc642a4207d62d722bcfd6d1803e93c7f52bf35f0a12e4d667c14ddbee\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://288c40a09b7e1e35a1fb8679faa4a47b78dd06201097a3826c77772f2b0b7d08\",\"dweb:/ipfs/QmcjVmTQ2gDjP33GSx7iSWYdRyCFLmBQnGXqL83Bu47jSy\"]},\"/D/lianer/002.\\u9879\\u76ee/007.NEST3.6/NEST-Oracle-V3.6/contracts/lib/IERC20.sol\":{\"keccak256\":\"0x208a653b3c4850786f94a1fa164579a3620a56097b138f02c3eccb393c214e13\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9d73fec8ca929de836d72ee70c40e71f09c04a938231d68c934327b400602d7a\",\"dweb:/ipfs/QmNosM3yrnQPekRJPap1wwhcdTQUdQuCmpfnfEwQvyuCiw\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: GPL-3.0-or-later\r\n\r\npragma solidity ^0.8.0;\r\n\r\n//import \"@openzeppelin/contracts/token/ERC20/IERC20.sol\";\r\nimport \"../lib/IERC20.sol\";\r\n\r\ninterface INest_NToken is IERC20 {\r\n    \r\n    /**\r\n    * @dev 重置投票合约方法\r\n    * @param voteFactory 投票合约地址\r\n    */\r\n    function changeMapping (address voteFactory) external;\r\n    \r\n    /**\r\n    * @dev 增发\r\n    * @param value 增发数量\r\n    */\r\n    function increaseTotal(uint256 value) external;\r\n\r\n    // /**\r\n    // * @dev 查询token总量\r\n    // * @return token总量\r\n    // */\r\n    // function totalSupply() external view returns (uint256);\r\n\r\n    // /**\r\n    // * @dev 查询地址余额\r\n    // * @param owner 要查询的地址\r\n    // * @return 返回对应地址的余额\r\n    // */\r\n    // function balanceOf(address owner) external view returns (uint256);\r\n    \r\n    /**\r\n    * @dev 查询区块信息\r\n    * @return createBlock 初始区块数\r\n    * @return recentlyUsedBlock 最近挖矿增发区块\r\n    */\r\n    function checkBlockInfo() external view returns(uint256 createBlock, uint256 recentlyUsedBlock);\r\n\r\n    // /**\r\n    //  * @dev 查询 owner 对 spender 的授权额度\r\n    //  * @param owner 发起授权的地址\r\n    //  * @param spender 被授权的地址\r\n    //  * @return 已授权的金额\r\n    //  */\r\n    // function allowance(address owner, address spender) override external view returns (uint256);\r\n\r\n    // /**\r\n    // * @dev 转账方法\r\n    // * @param to 转账目标\r\n    // * @param value 转账金额\r\n    // * @return 转账是否成功\r\n    // */\r\n    // function transfer(address to, uint256 value) external returns (bool);\r\n\r\n    // /**\r\n    //  * @dev 授权方法\r\n    //  * @param spender 授权目标\r\n    //  * @param value 授权数量\r\n    //  * @return 授权是否成功\r\n    //  */\r\n    // function approve(address spender, uint256 value) external returns (bool);\r\n\r\n    // /**\r\n    //  * @dev 已授权状态下，从 from地址转账到to地址\r\n    //  * @param from 转出的账户地址 \r\n    //  * @param to 转入的账户地址\r\n    //  * @param value 转账金额\r\n    //  * @return 授权转账是否成功\r\n    //  */\r\n    // function transferFrom(address from, address to, uint256 value) external returns (bool);\r\n\r\n    // /**\r\n    //  * @dev 增加授权额度\r\n    //  * @param spender 授权目标\r\n    //  * @param addedValue 增加的额度\r\n    //  * @return 增加授权额度是否成功\r\n    //  */\r\n    // function increaseAllowance(address spender, uint256 addedValue) external returns (bool);\r\n\r\n    // /**\r\n    //  * @dev 减少授权额度\r\n    //  * @param spender 授权目标\r\n    //  * @param subtractedValue 减少的额度\r\n    //  * @return 减少授权额度是否成功\r\n    //  */\r\n    // function decreaseAllowance(address spender, uint256 subtractedValue) external returns (bool);\r\n\r\n    /**\r\n    * @dev 查询创建者\r\n    * @return 创建者地址\r\n    */\r\n    function checkBidder() external view returns(address);\r\n    \r\n    /**\r\n    * @dev 转让创建者\r\n    * @param bidder 新创建者地址\r\n    */\r\n    function changeBidder(address bidder) external;\r\n}",
+  "sourcePath": "D:\\lianer\\002.项目\\007.NEST3.6\\NEST-Oracle-V3.6\\contracts\\interface\\INest_NToken.sol",
+  "ast": {
+    "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INest_NToken.sol",
+    "exportedSymbols": {
+      "IERC20": [
+        12117
+      ],
+      "INest_NToken": [
+        10547
+      ]
+    },
+    "id": 10548,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 10511,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "48:23:22"
+      },
+      {
+        "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/lib/IERC20.sol",
+        "file": "../lib/IERC20.sol",
+        "id": 10512,
+        "nodeType": "ImportDirective",
+        "scope": 10548,
+        "sourceUnit": 12118,
+        "src": "135:27:22",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 10513,
+              "name": "IERC20",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 12117,
+              "src": "192:6:22"
+            },
+            "id": 10514,
+            "nodeType": "InheritanceSpecifier",
+            "src": "192:6:22"
+          }
+        ],
+        "contractDependencies": [
+          12117
+        ],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 10547,
+        "linearizedBaseContracts": [
+          10547,
+          12117
+        ],
+        "name": "INest_NToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "documentation": {
+              "id": 10515,
+              "nodeType": "StructuredDocumentation",
+              "src": "212:93:22",
+              "text": " @dev 重置投票合约方法\n @param voteFactory 投票合约地址"
+            },
+            "functionSelector": "a781e7f8",
+            "id": 10520,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "changeMapping",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10518,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10517,
+                  "mutability": "mutable",
+                  "name": "voteFactory",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10520,
+                  "src": "335:19:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 10516,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "335:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "334:21:22"
+            },
+            "returnParameters": {
+              "id": 10519,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "364:0:22"
+            },
+            "scope": 10547,
+            "src": "311:54:22",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 10521,
+              "nodeType": "StructuredDocumentation",
+              "src": "377:63:22",
+              "text": " @dev 增发\n @param value 增发数量"
+            },
+            "functionSelector": "81fa5431",
+            "id": 10526,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "increaseTotal",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10524,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10523,
+                  "mutability": "mutable",
+                  "name": "value",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10526,
+                  "src": "469:13:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 10522,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "469:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "468:15:22"
+            },
+            "returnParameters": {
+              "id": 10525,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "492:0:22"
+            },
+            "scope": 10547,
+            "src": "446:47:22",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 10527,
+              "nodeType": "StructuredDocumentation",
+              "src": "879:143:22",
+              "text": " @dev 查询区块信息\n @return createBlock 初始区块数\n @return recentlyUsedBlock 最近挖矿增发区块"
+            },
+            "functionSelector": "92c08871",
+            "id": 10534,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "checkBlockInfo",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10528,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1051:2:22"
+            },
+            "returnParameters": {
+              "id": 10533,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10530,
+                  "mutability": "mutable",
+                  "name": "createBlock",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10534,
+                  "src": "1076:19:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 10529,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1076:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 10532,
+                  "mutability": "mutable",
+                  "name": "recentlyUsedBlock",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10534,
+                  "src": "1097:25:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 10531,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1097:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1075:48:22"
+            },
+            "scope": 10547,
+            "src": "1028:96:22",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 10535,
+              "nodeType": "StructuredDocumentation",
+              "src": "2888:70:22",
+              "text": " @dev 查询创建者\n @return 创建者地址"
+            },
+            "functionSelector": "28e6a33f",
+            "id": 10540,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "checkBidder",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10536,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2984:2:22"
+            },
+            "returnParameters": {
+              "id": 10539,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10538,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10540,
+                  "src": "3009:7:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 10537,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3009:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3008:9:22"
+            },
+            "scope": 10547,
+            "src": "2964:54:22",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 10541,
+              "nodeType": "StructuredDocumentation",
+              "src": "3030:79:22",
+              "text": " @dev 转让创建者\n @param bidder 新创建者地址"
+            },
+            "functionSelector": "161b058b",
+            "id": 10546,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "changeBidder",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10544,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10543,
+                  "mutability": "mutable",
+                  "name": "bidder",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10546,
+                  "src": "3137:14:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 10542,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3137:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3136:16:22"
+            },
+            "returnParameters": {
+              "id": 10545,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3161:0:22"
+            },
+            "scope": 10547,
+            "src": "3115:47:22",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 10548,
+        "src": "166:2999:22"
+      }
+    ],
+    "src": "48:3117:22"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INest_NToken.sol",
+    "exportedSymbols": {
+      "IERC20": [
+        12117
+      ],
+      "INest_NToken": [
+        10547
+      ]
+    },
+    "id": 10548,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 10511,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "48:23:22"
+      },
+      {
+        "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/lib/IERC20.sol",
+        "file": "../lib/IERC20.sol",
+        "id": 10512,
+        "nodeType": "ImportDirective",
+        "scope": 10548,
+        "sourceUnit": 12118,
+        "src": "135:27:22",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 10513,
+              "name": "IERC20",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 12117,
+              "src": "192:6:22"
+            },
+            "id": 10514,
+            "nodeType": "InheritanceSpecifier",
+            "src": "192:6:22"
+          }
+        ],
+        "contractDependencies": [
+          12117
+        ],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 10547,
+        "linearizedBaseContracts": [
+          10547,
+          12117
+        ],
+        "name": "INest_NToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "documentation": {
+              "id": 10515,
+              "nodeType": "StructuredDocumentation",
+              "src": "212:93:22",
+              "text": " @dev 重置投票合约方法\n @param voteFactory 投票合约地址"
+            },
+            "functionSelector": "a781e7f8",
+            "id": 10520,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "changeMapping",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10518,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10517,
+                  "mutability": "mutable",
+                  "name": "voteFactory",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10520,
+                  "src": "335:19:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 10516,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "335:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "334:21:22"
+            },
+            "returnParameters": {
+              "id": 10519,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "364:0:22"
+            },
+            "scope": 10547,
+            "src": "311:54:22",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 10521,
+              "nodeType": "StructuredDocumentation",
+              "src": "377:63:22",
+              "text": " @dev 增发\n @param value 增发数量"
+            },
+            "functionSelector": "81fa5431",
+            "id": 10526,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "increaseTotal",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10524,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10523,
+                  "mutability": "mutable",
+                  "name": "value",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10526,
+                  "src": "469:13:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 10522,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "469:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "468:15:22"
+            },
+            "returnParameters": {
+              "id": 10525,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "492:0:22"
+            },
+            "scope": 10547,
+            "src": "446:47:22",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 10527,
+              "nodeType": "StructuredDocumentation",
+              "src": "879:143:22",
+              "text": " @dev 查询区块信息\n @return createBlock 初始区块数\n @return recentlyUsedBlock 最近挖矿增发区块"
+            },
+            "functionSelector": "92c08871",
+            "id": 10534,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "checkBlockInfo",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10528,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1051:2:22"
+            },
+            "returnParameters": {
+              "id": 10533,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10530,
+                  "mutability": "mutable",
+                  "name": "createBlock",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10534,
+                  "src": "1076:19:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 10529,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1076:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 10532,
+                  "mutability": "mutable",
+                  "name": "recentlyUsedBlock",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10534,
+                  "src": "1097:25:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 10531,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1097:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1075:48:22"
+            },
+            "scope": 10547,
+            "src": "1028:96:22",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 10535,
+              "nodeType": "StructuredDocumentation",
+              "src": "2888:70:22",
+              "text": " @dev 查询创建者\n @return 创建者地址"
+            },
+            "functionSelector": "28e6a33f",
+            "id": 10540,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "checkBidder",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10536,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2984:2:22"
+            },
+            "returnParameters": {
+              "id": 10539,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10538,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10540,
+                  "src": "3009:7:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 10537,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3009:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3008:9:22"
+            },
+            "scope": 10547,
+            "src": "2964:54:22",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 10541,
+              "nodeType": "StructuredDocumentation",
+              "src": "3030:79:22",
+              "text": " @dev 转让创建者\n @param bidder 新创建者地址"
+            },
+            "functionSelector": "161b058b",
+            "id": 10546,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "changeBidder",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10544,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10543,
+                  "mutability": "mutable",
+                  "name": "bidder",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 10546,
+                  "src": "3137:14:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 10542,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3137:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3136:16:22"
+            },
+            "returnParameters": {
+              "id": 10545,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3161:0:22"
+            },
+            "scope": 10547,
+            "src": "3115:47:22",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 10548,
+        "src": "166:2999:22"
+      }
+    ],
+    "src": "48:3117:22"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-03-24T02:34:48.949Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "allowance(address,address)": {
+        "details": "Returns the remaining number of tokens that `spender` will be allowed to spend on behalf of `owner` through {transferFrom}. This is zero by default. This value changes when {approve} or {transferFrom} are called."
+      },
+      "approve(address,uint256)": {
+        "details": "Sets `amount` as the allowance of `spender` over the caller's tokens. Returns a boolean value indicating whether the operation succeeded. IMPORTANT: Beware that changing an allowance with this method brings the risk that someone may use both the old and the new allowance by unfortunate transaction ordering. One possible solution to mitigate this race condition is to first reduce the spender's allowance to 0 and set the desired value afterwards: https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729 Emits an {Approval} event."
+      },
+      "balanceOf(address)": {
+        "details": "Returns the amount of tokens owned by `account`."
+      },
+      "changeBidder(address)": {
+        "details": "转让创建者",
+        "params": {
+          "bidder": "新创建者地址"
+        }
+      },
+      "changeMapping(address)": {
+        "details": "重置投票合约方法",
+        "params": {
+          "voteFactory": "投票合约地址"
+        }
+      },
+      "checkBidder()": {
+        "details": "查询创建者",
+        "returns": {
+          "_0": "创建者地址"
+        }
+      },
+      "checkBlockInfo()": {
+        "details": "查询区块信息",
+        "returns": {
+          "createBlock": "初始区块数",
+          "recentlyUsedBlock": "最近挖矿增发区块"
+        }
+      },
+      "increaseTotal(uint256)": {
+        "details": "增发",
+        "params": {
+          "value": "增发数量"
+        }
+      },
+      "totalSupply()": {
+        "details": "Returns the amount of tokens in existence."
+      },
+      "transfer(address,uint256)": {
+        "details": "Moves `amount` tokens from the caller's account to `recipient`. Returns a boolean value indicating whether the operation succeeded. Emits a {Transfer} event."
+      },
+      "transferFrom(address,address,uint256)": {
+        "details": "Moves `amount` tokens from `sender` to `recipient` using the allowance mechanism. `amount` is then deducted from the caller's allowance. Returns a boolean value indicating whether the operation succeeded. Emits a {Transfer} event."
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

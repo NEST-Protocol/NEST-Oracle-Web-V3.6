@@ -1,0 +1,41 @@
+@import "/styles/common";
+
+.checkbox {
+
+}
+
+.checkboxTxt{
+  color: rgba(26, 178, 255, 1);
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 27px;
+}
+input[type='checkbox'] {
+  cursor: pointer;
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  font-size: 0.9rem;
+  visibility: hidden;
+}
+input[type='checkbox']::after {
+  position: absolute;
+  top: 0;
+  background-color: rgba(26, 26, 26, 1);
+  border: 1px solid rgba(26, 178, 255, 1);
+  color: rgba(26, 178, 255, 1);
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  visibility: visible;
+  padding-left: 0px;
+  text-align: center;
+  content: ' ';
+}
+input[type='checkbox']:checked::after {
+  content: '✓';
+  font-size: 0.7rem;
+  font-weight: bold;
+}

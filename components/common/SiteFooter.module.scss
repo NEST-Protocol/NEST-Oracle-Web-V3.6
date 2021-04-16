@@ -1,0 +1,31 @@
+@import "/styles/common";
+.container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: var(--listcard);
+}
+.innerContainer {
+  max-width: $maxWidth;
+  margin: 0 auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.desc {
+  color: var(--textWhite60);
+}
+.links {
+  list-style: none;
+  li {
+    margin-left: 50px;
+  }
+  li a {
+    margin: 0;
+    padding: 0;
+    color: var(--textWhite60);
+  }
+}

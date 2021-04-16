@@ -1,0 +1,48 @@
+@import "/styles/common";
+.container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  background-color: var(--listcard);
+}
+.innerContainer {
+  max-width: $maxWidth;
+  margin: 0 auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 88px;
+}
+.right {
+  display: flex;
+}
+.navigationMainData {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  li {
+    color: rgba(250, 250, 250, 0.6);
+    font-weight: normal;
+    float: left;
+    margin: 0 30px;
+    font-size: 20px;
+    cursor: pointer;
+    animation: 0.5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+  }
+}
+.active {
+  font-weight:bold !important;
+  color: rgba(250, 250, 250, 1) !important;
+  border-bottom-color:white !important;
+}

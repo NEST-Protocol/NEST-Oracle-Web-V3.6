@@ -1,0 +1,1207 @@
+{
+  "contractName": "INestGovernance",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        }
+      ],
+      "name": "checkAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getBuiltinAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "nestTokenAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestNodeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestLedgerAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestMiningAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestPriceFacadeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestVoteAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestQueryAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nnIncomeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nTokenControllerAddress",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNTokenControllerAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestLedgerAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestMiningAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestNodeAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestPriceFacadeAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestQueryAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestTokenAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestVoteAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNnIncomeAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "internalType": "address",
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "registerAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "nestTokenAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestNodeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestLedgerAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestMiningAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestPriceFacadeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestVoteAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestQueryAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nnIncomeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nTokenControllerAddress",
+          "type": "address"
+        }
+      ],
+      "name": "setBuiltinAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "addr",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "flag",
+          "type": "uint256"
+        }
+      ],
+      "name": "setGovernance",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "getGovernance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "addr",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "flag",
+          "type": "uint256"
+        }
+      ],
+      "name": "checkGovernance",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"}],\"name\":\"checkAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"flag\",\"type\":\"uint256\"}],\"name\":\"checkGovernance\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getBuiltinAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"nestTokenAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestNodeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestLedgerAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestMiningAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestPriceFacadeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestVoteAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestQueryAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nnIncomeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nTokenControllerAddress\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"getGovernance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNTokenControllerAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestLedgerAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestMiningAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestNodeAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestPriceFacadeAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestQueryAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestTokenAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestVoteAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNnIncomeAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"registerAddress\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"nestTokenAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestNodeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestLedgerAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestMiningAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestPriceFacadeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestVoteAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestQueryAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nnIncomeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nTokenControllerAddress\",\"type\":\"address\"}],\"name\":\"setBuiltinAddress\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"flag\",\"type\":\"uint256\"}],\"name\":\"setGovernance\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Defines methods for nest governance contract\",\"kind\":\"dev\",\"methods\":{\"checkAddress(string)\":{\"details\":\"Get registered address\",\"params\":{\"key\":\"The key\"},\"returns\":{\"_0\":\"Destination address. 0 means empty\"}},\"checkGovernance(address,uint256)\":{\"details\":\"Check whether the target address has governance rights for the given target\",\"params\":{\"addr\":\"Destination address\",\"flag\":\"Permission weight. The permission of the target address must be greater than this weight to pass the check\"},\"returns\":{\"_0\":\"True indicates permission\"}},\"getBuiltinAddress()\":{\"details\":\"Set the built-in contract address of the system\",\"returns\":{\"nTokenControllerAddress\":\"INTokenController implemention contract address\",\"nestLedgerAddress\":\"INestLedger implemention contract address\",\"nestMiningAddress\":\"INestMining implemention contract address\",\"nestNodeAddress\":\"Address of nest node contract\",\"nestPriceFacadeAddress\":\"INestPriceFacade implemention contract address\",\"nestQueryAddress\":\"INestQuery implemention contract address\",\"nestTokenAddress\":\"Address of nest token contract\",\"nestVoteAddress\":\"INestVote implemention contract address\",\"nnIncomeAddress\":\"NNIncome contract address\"}},\"getGovernance(address)\":{\"details\":\"Get governance rights\",\"params\":{\"addr\":\"Destination address\"},\"returns\":{\"_0\":\"Weight. 0 means to delete the governance permission of the target address. Weight is not         implemented in the current system, only the difference between authorized and unauthorized.         Here, a uint96 is used to represent the weight, which is only reserved for expansion\"}},\"getNTokenControllerAddress()\":{\"details\":\"Get INTokenController implemention contract address\",\"returns\":{\"_0\":\"INTokenController implemention contract address\"}},\"getNestLedgerAddress()\":{\"details\":\"Get INestLedger implemention contract address\",\"returns\":{\"_0\":\"INestLedger implemention contract address\"}},\"getNestMiningAddress()\":{\"details\":\"Get INestMining implemention contract address\",\"returns\":{\"_0\":\"INestMining implemention contract address\"}},\"getNestNodeAddress()\":{\"details\":\"Get address of nest node contract\",\"returns\":{\"_0\":\"Address of nest node contract\"}},\"getNestPriceFacadeAddress()\":{\"details\":\"Get INestPriceFacade implemention contract address\",\"returns\":{\"_0\":\"INestPriceFacade implemention contract address\"}},\"getNestQueryAddress()\":{\"details\":\"Get INestQuery implemention contract address\",\"returns\":{\"_0\":\"INestQuery implemention contract address\"}},\"getNestTokenAddress()\":{\"details\":\"Get address of nest token contract\",\"returns\":{\"_0\":\"Address of nest token contract\"}},\"getNestVoteAddress()\":{\"details\":\"Get INestVote implemention contract address\",\"returns\":{\"_0\":\"INestVote implemention contract address\"}},\"getNnIncomeAddress()\":{\"details\":\"Get NNIncome contract address\",\"returns\":{\"_0\":\"NNIncome contract address\"}},\"registerAddress(string,address)\":{\"details\":\"Registered address. The address registered here is the address accepted by nest system\",\"params\":{\"addr\":\"Destination address. 0 means to delete the registration information\",\"key\":\"The key\"}},\"setBuiltinAddress(address,address,address,address,address,address,address,address,address)\":{\"details\":\"Set the built-in contract address of the system\",\"params\":{\"nTokenControllerAddress\":\"INTokenController implemention contract address\",\"nestLedgerAddress\":\"INestLedger implemention contract address\",\"nestMiningAddress\":\"INestMining implemention contract address\",\"nestNodeAddress\":\"Address of nest node contract\",\"nestPriceFacadeAddress\":\"INestPriceFacade implemention contract address\",\"nestQueryAddress\":\"INestQuery implemention contract address\",\"nestTokenAddress\":\"Address of nest token contract\",\"nestVoteAddress\":\"INestVote implemention contract address\",\"nnIncomeAddress\":\"NNIncome contract address\"}},\"setGovernance(address,uint256)\":{\"details\":\"Set governance authority\",\"params\":{\"addr\":\"Destination address\",\"flag\":\"Weight. 0 means to delete the governance permission of the target address. Weight is not         implemented in the current system, only the difference between authorized and unauthorized.         Here, a uint96 is used to represent the weight, which is only reserved for expansion\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/D/lianer/002.\\u9879\\u76ee/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INestGovernance.sol\":\"INestGovernance\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/lianer/002.\\u9879\\u76ee/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INestGovernance.sol\":{\"keccak256\":\"0x9cb870e09627e5125569808eb2946948236e6a7e2a00e2075640782c9a1d3628\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://133df22cd1e691b88b7bfb1206a4f22c1821370f90743e8c35bc5604e9996711\",\"dweb:/ipfs/QmVTVY5We7Shr57xcrFbxX7BRMkuJXkAa23VC1kmJhw7G6\"]},\"/D/lianer/002.\\u9879\\u76ee/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INestMapping.sol\":{\"keccak256\":\"0x398269451ca7d555434b3d8e5ffbf859882bd94e9e2676cca41b7385615714b5\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://c31e3e0ed4e40e73bee5ca305bf61fcfe54655b23c2542b8638d2d1901196377\",\"dweb:/ipfs/QmVvrKNECncnPPVCgSmL9QY4xiR726BhBKopVmbxTqtfhz\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: GPL-3.0-or-later\r\n\r\npragma solidity ^0.8.0;\r\n\r\nimport \"./INestMapping.sol\";\r\n\r\n/// @dev Defines methods for nest governance contract\r\ninterface INestGovernance is INestMapping {\r\n\r\n    /// @dev Set governance authority\r\n    /// @param addr Destination address\r\n    /// @param flag Weight. 0 means to delete the governance permission of the target address. Weight is not \r\n    ///        implemented in the current system, only the difference between authorized and unauthorized. \r\n    ///        Here, a uint96 is used to represent the weight, which is only reserved for expansion\r\n    function setGovernance(address addr, uint flag) external;\r\n\r\n    /// @dev Get governance rights\r\n    /// @param addr Destination address\r\n    /// @return Weight. 0 means to delete the governance permission of the target address. Weight is not \r\n    ///        implemented in the current system, only the difference between authorized and unauthorized. \r\n    ///        Here, a uint96 is used to represent the weight, which is only reserved for expansion\r\n    function getGovernance(address addr) external view returns (uint);\r\n\r\n    /// @dev Check whether the target address has governance rights for the given target\r\n    /// @param addr Destination address\r\n    /// @param flag Permission weight. The permission of the target address must be greater than this weight to pass the check\r\n    /// @return True indicates permission\r\n    function checkGovernance(address addr, uint flag) external view returns (bool);\r\n}",
+  "sourcePath": "D:\\lianer\\002.项目\\007.NEST3.6\\NEST-Oracle-V3.6\\contracts\\interface\\INestGovernance.sol",
+  "ast": {
+    "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INestGovernance.sol",
+    "exportedSymbols": {
+      "INestGovernance": [
+        9578
+      ],
+      "INestMapping": [
+        9771
+      ]
+    },
+    "id": 9579,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 9547,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "48:23:14"
+      },
+      {
+        "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INestMapping.sol",
+        "file": "./INestMapping.sol",
+        "id": 9548,
+        "nodeType": "ImportDirective",
+        "scope": 9579,
+        "sourceUnit": 9772,
+        "src": "75:28:14",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 9550,
+              "name": "INestMapping",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 9771,
+              "src": "191:12:14"
+            },
+            "id": 9551,
+            "nodeType": "InheritanceSpecifier",
+            "src": "191:12:14"
+          }
+        ],
+        "contractDependencies": [
+          9771
+        ],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 9549,
+          "nodeType": "StructuredDocumentation",
+          "src": "107:55:14",
+          "text": "@dev Defines methods for nest governance contract"
+        },
+        "fullyImplemented": false,
+        "id": 9578,
+        "linearizedBaseContracts": [
+          9578,
+          9771
+        ],
+        "name": "INestGovernance",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "documentation": {
+              "id": 9552,
+              "nodeType": "StructuredDocumentation",
+              "src": "213:395:14",
+              "text": "@dev Set governance authority\n @param addr Destination address\n @param flag Weight. 0 means to delete the governance permission of the target address. Weight is not \n        implemented in the current system, only the difference between authorized and unauthorized. \n        Here, a uint96 is used to represent the weight, which is only reserved for expansion"
+            },
+            "functionSelector": "783f5255",
+            "id": 9559,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setGovernance",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9557,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9554,
+                  "mutability": "mutable",
+                  "name": "addr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9559,
+                  "src": "637:12:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9553,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "637:7:14",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9556,
+                  "mutability": "mutable",
+                  "name": "flag",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9559,
+                  "src": "651:9:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 9555,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "651:4:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "636:25:14"
+            },
+            "returnParameters": {
+              "id": 9558,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "670:0:14"
+            },
+            "scope": 9578,
+            "src": "614:57:14",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9560,
+              "nodeType": "StructuredDocumentation",
+              "src": "679:388:14",
+              "text": "@dev Get governance rights\n @param addr Destination address\n @return Weight. 0 means to delete the governance permission of the target address. Weight is not \n        implemented in the current system, only the difference between authorized and unauthorized. \n        Here, a uint96 is used to represent the weight, which is only reserved for expansion"
+            },
+            "functionSelector": "8f9560df",
+            "id": 9567,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getGovernance",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9563,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9562,
+                  "mutability": "mutable",
+                  "name": "addr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9567,
+                  "src": "1096:12:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9561,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1096:7:14",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1095:14:14"
+            },
+            "returnParameters": {
+              "id": 9566,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9565,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9567,
+                  "src": "1133:4:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 9564,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1133:4:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1132:6:14"
+            },
+            "scope": 9578,
+            "src": "1073:66:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9568,
+              "nodeType": "StructuredDocumentation",
+              "src": "1147:296:14",
+              "text": "@dev Check whether the target address has governance rights for the given target\n @param addr Destination address\n @param flag Permission weight. The permission of the target address must be greater than this weight to pass the check\n @return True indicates permission"
+            },
+            "functionSelector": "91e1472b",
+            "id": 9577,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "checkGovernance",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9573,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9570,
+                  "mutability": "mutable",
+                  "name": "addr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9577,
+                  "src": "1474:12:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9569,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1474:7:14",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9572,
+                  "mutability": "mutable",
+                  "name": "flag",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9577,
+                  "src": "1488:9:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 9571,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1488:4:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1473:25:14"
+            },
+            "returnParameters": {
+              "id": 9576,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9575,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9577,
+                  "src": "1522:4:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 9574,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1522:4:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1521:6:14"
+            },
+            "scope": 9578,
+            "src": "1449:79:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 9579,
+        "src": "162:1369:14"
+      }
+    ],
+    "src": "48:1483:14"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INestGovernance.sol",
+    "exportedSymbols": {
+      "INestGovernance": [
+        9578
+      ],
+      "INestMapping": [
+        9771
+      ]
+    },
+    "id": 9579,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 9547,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "48:23:14"
+      },
+      {
+        "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INestMapping.sol",
+        "file": "./INestMapping.sol",
+        "id": 9548,
+        "nodeType": "ImportDirective",
+        "scope": 9579,
+        "sourceUnit": 9772,
+        "src": "75:28:14",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 9550,
+              "name": "INestMapping",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 9771,
+              "src": "191:12:14"
+            },
+            "id": 9551,
+            "nodeType": "InheritanceSpecifier",
+            "src": "191:12:14"
+          }
+        ],
+        "contractDependencies": [
+          9771
+        ],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 9549,
+          "nodeType": "StructuredDocumentation",
+          "src": "107:55:14",
+          "text": "@dev Defines methods for nest governance contract"
+        },
+        "fullyImplemented": false,
+        "id": 9578,
+        "linearizedBaseContracts": [
+          9578,
+          9771
+        ],
+        "name": "INestGovernance",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "documentation": {
+              "id": 9552,
+              "nodeType": "StructuredDocumentation",
+              "src": "213:395:14",
+              "text": "@dev Set governance authority\n @param addr Destination address\n @param flag Weight. 0 means to delete the governance permission of the target address. Weight is not \n        implemented in the current system, only the difference between authorized and unauthorized. \n        Here, a uint96 is used to represent the weight, which is only reserved for expansion"
+            },
+            "functionSelector": "783f5255",
+            "id": 9559,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setGovernance",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9557,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9554,
+                  "mutability": "mutable",
+                  "name": "addr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9559,
+                  "src": "637:12:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9553,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "637:7:14",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9556,
+                  "mutability": "mutable",
+                  "name": "flag",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9559,
+                  "src": "651:9:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 9555,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "651:4:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "636:25:14"
+            },
+            "returnParameters": {
+              "id": 9558,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "670:0:14"
+            },
+            "scope": 9578,
+            "src": "614:57:14",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9560,
+              "nodeType": "StructuredDocumentation",
+              "src": "679:388:14",
+              "text": "@dev Get governance rights\n @param addr Destination address\n @return Weight. 0 means to delete the governance permission of the target address. Weight is not \n        implemented in the current system, only the difference between authorized and unauthorized. \n        Here, a uint96 is used to represent the weight, which is only reserved for expansion"
+            },
+            "functionSelector": "8f9560df",
+            "id": 9567,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getGovernance",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9563,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9562,
+                  "mutability": "mutable",
+                  "name": "addr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9567,
+                  "src": "1096:12:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9561,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1096:7:14",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1095:14:14"
+            },
+            "returnParameters": {
+              "id": 9566,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9565,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9567,
+                  "src": "1133:4:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 9564,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1133:4:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1132:6:14"
+            },
+            "scope": 9578,
+            "src": "1073:66:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9568,
+              "nodeType": "StructuredDocumentation",
+              "src": "1147:296:14",
+              "text": "@dev Check whether the target address has governance rights for the given target\n @param addr Destination address\n @param flag Permission weight. The permission of the target address must be greater than this weight to pass the check\n @return True indicates permission"
+            },
+            "functionSelector": "91e1472b",
+            "id": 9577,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "checkGovernance",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9573,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9570,
+                  "mutability": "mutable",
+                  "name": "addr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9577,
+                  "src": "1474:12:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9569,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1474:7:14",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9572,
+                  "mutability": "mutable",
+                  "name": "flag",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9577,
+                  "src": "1488:9:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 9571,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1488:4:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1473:25:14"
+            },
+            "returnParameters": {
+              "id": 9576,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9575,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9577,
+                  "src": "1522:4:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 9574,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1522:4:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1521:6:14"
+            },
+            "scope": 9578,
+            "src": "1449:79:14",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 9579,
+        "src": "162:1369:14"
+      }
+    ],
+    "src": "48:1483:14"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-03-24T02:34:48.893Z",
+  "devdoc": {
+    "details": "Defines methods for nest governance contract",
+    "kind": "dev",
+    "methods": {
+      "checkAddress(string)": {
+        "details": "Get registered address",
+        "params": {
+          "key": "The key"
+        },
+        "returns": {
+          "_0": "Destination address. 0 means empty"
+        }
+      },
+      "checkGovernance(address,uint256)": {
+        "details": "Check whether the target address has governance rights for the given target",
+        "params": {
+          "addr": "Destination address",
+          "flag": "Permission weight. The permission of the target address must be greater than this weight to pass the check"
+        },
+        "returns": {
+          "_0": "True indicates permission"
+        }
+      },
+      "getBuiltinAddress()": {
+        "details": "Set the built-in contract address of the system",
+        "returns": {
+          "nTokenControllerAddress": "INTokenController implemention contract address",
+          "nestLedgerAddress": "INestLedger implemention contract address",
+          "nestMiningAddress": "INestMining implemention contract address",
+          "nestNodeAddress": "Address of nest node contract",
+          "nestPriceFacadeAddress": "INestPriceFacade implemention contract address",
+          "nestQueryAddress": "INestQuery implemention contract address",
+          "nestTokenAddress": "Address of nest token contract",
+          "nestVoteAddress": "INestVote implemention contract address",
+          "nnIncomeAddress": "NNIncome contract address"
+        }
+      },
+      "getGovernance(address)": {
+        "details": "Get governance rights",
+        "params": {
+          "addr": "Destination address"
+        },
+        "returns": {
+          "_0": "Weight. 0 means to delete the governance permission of the target address. Weight is not         implemented in the current system, only the difference between authorized and unauthorized.         Here, a uint96 is used to represent the weight, which is only reserved for expansion"
+        }
+      },
+      "getNTokenControllerAddress()": {
+        "details": "Get INTokenController implemention contract address",
+        "returns": {
+          "_0": "INTokenController implemention contract address"
+        }
+      },
+      "getNestLedgerAddress()": {
+        "details": "Get INestLedger implemention contract address",
+        "returns": {
+          "_0": "INestLedger implemention contract address"
+        }
+      },
+      "getNestMiningAddress()": {
+        "details": "Get INestMining implemention contract address",
+        "returns": {
+          "_0": "INestMining implemention contract address"
+        }
+      },
+      "getNestNodeAddress()": {
+        "details": "Get address of nest node contract",
+        "returns": {
+          "_0": "Address of nest node contract"
+        }
+      },
+      "getNestPriceFacadeAddress()": {
+        "details": "Get INestPriceFacade implemention contract address",
+        "returns": {
+          "_0": "INestPriceFacade implemention contract address"
+        }
+      },
+      "getNestQueryAddress()": {
+        "details": "Get INestQuery implemention contract address",
+        "returns": {
+          "_0": "INestQuery implemention contract address"
+        }
+      },
+      "getNestTokenAddress()": {
+        "details": "Get address of nest token contract",
+        "returns": {
+          "_0": "Address of nest token contract"
+        }
+      },
+      "getNestVoteAddress()": {
+        "details": "Get INestVote implemention contract address",
+        "returns": {
+          "_0": "INestVote implemention contract address"
+        }
+      },
+      "getNnIncomeAddress()": {
+        "details": "Get NNIncome contract address",
+        "returns": {
+          "_0": "NNIncome contract address"
+        }
+      },
+      "registerAddress(string,address)": {
+        "details": "Registered address. The address registered here is the address accepted by nest system",
+        "params": {
+          "addr": "Destination address. 0 means to delete the registration information",
+          "key": "The key"
+        }
+      },
+      "setBuiltinAddress(address,address,address,address,address,address,address,address,address)": {
+        "details": "Set the built-in contract address of the system",
+        "params": {
+          "nTokenControllerAddress": "INTokenController implemention contract address",
+          "nestLedgerAddress": "INestLedger implemention contract address",
+          "nestMiningAddress": "INestMining implemention contract address",
+          "nestNodeAddress": "Address of nest node contract",
+          "nestPriceFacadeAddress": "INestPriceFacade implemention contract address",
+          "nestQueryAddress": "INestQuery implemention contract address",
+          "nestTokenAddress": "Address of nest token contract",
+          "nestVoteAddress": "INestVote implemention contract address",
+          "nnIncomeAddress": "NNIncome contract address"
+        }
+      },
+      "setGovernance(address,uint256)": {
+        "details": "Set governance authority",
+        "params": {
+          "addr": "Destination address",
+          "flag": "Weight. 0 means to delete the governance permission of the target address. Weight is not         implemented in the current system, only the difference between authorized and unauthorized.         Here, a uint96 is used to represent the weight, which is only reserved for expansion"
+        }
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

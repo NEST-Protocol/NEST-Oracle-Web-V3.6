@@ -1,0 +1,13 @@
+@import "/styles/common";
+.container {
+  display: inline-block;
+  margin-left: 5px;
+}
+.list {
+  width: 100px;
+  color: var(--textWhite);
+  text-align: center;
+  li {
+    padding:8px 33px 8px 20px;
+  }
+}

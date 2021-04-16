@@ -1,0 +1,79 @@
+@import "/styles/common";
+
+
+.swapDataValue{
+  background: linear-gradient(92.51deg, #1d2129, #2f1c25);
+  border-radius: 8px;
+  width: 360px;
+  height: 280px;
+  margin: 0 15px;
+  justify-content: center;
+  display: flex;
+  flex-direction:column;
+  button {
+    width: 270px;
+    height: 43px;
+    margin: 20px auto;
+  }
+}
+.card {
+  border-radius: 8px;
+  background: $bgBlack;
+  color: $blueNumber;
+  width: 360px;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction:column;
+}
+.cardMax {
+  border-radius: 8px;
+  color: $blueNumber;
+  width: 280px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction:column;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  &::before {
+    display: block;
+    background: url("/static/images/NToken.svg") center bottom no-repeat;
+    background-size: 60px;
+    width: 60px;
+    height: 60px;
+    content: '';
+  }
+  img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.imgNest {
+  z-index: 2 !important;
+}
+
+.cardValue {
+  font-weight: 700;
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.cardLabel {
+  font-size: 14px;
+  margin: 15px 0;
+}

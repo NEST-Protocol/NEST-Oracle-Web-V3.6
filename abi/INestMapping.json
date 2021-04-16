@@ -1,0 +1,3018 @@
+{
+  "contractName": "INestMapping",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "nestTokenAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestNodeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestLedgerAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestMiningAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestPriceFacadeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestVoteAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestQueryAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nnIncomeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nTokenControllerAddress",
+          "type": "address"
+        }
+      ],
+      "name": "setBuiltinAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getBuiltinAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "nestTokenAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestNodeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestLedgerAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestMiningAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestPriceFacadeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestVoteAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nestQueryAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nnIncomeAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "nTokenControllerAddress",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestTokenAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestNodeAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestLedgerAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestMiningAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestPriceFacadeAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestVoteAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNestQueryAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNnIncomeAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getNTokenControllerAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        },
+        {
+          "internalType": "address",
+          "name": "addr",
+          "type": "address"
+        }
+      ],
+      "name": "registerAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "key",
+          "type": "string"
+        }
+      ],
+      "name": "checkAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"}],\"name\":\"checkAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getBuiltinAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"nestTokenAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestNodeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestLedgerAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestMiningAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestPriceFacadeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestVoteAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestQueryAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nnIncomeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nTokenControllerAddress\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNTokenControllerAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestLedgerAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestMiningAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestNodeAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestPriceFacadeAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestQueryAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestTokenAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNestVoteAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getNnIncomeAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"key\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"registerAddress\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"nestTokenAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestNodeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestLedgerAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestMiningAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestPriceFacadeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestVoteAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nestQueryAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nnIncomeAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"nTokenControllerAddress\",\"type\":\"address\"}],\"name\":\"setBuiltinAddress\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"The interface defines methods for nest builtin contract address mapping\",\"kind\":\"dev\",\"methods\":{\"checkAddress(string)\":{\"details\":\"Get registered address\",\"params\":{\"key\":\"The key\"},\"returns\":{\"_0\":\"Destination address. 0 means empty\"}},\"getBuiltinAddress()\":{\"details\":\"Set the built-in contract address of the system\",\"returns\":{\"nTokenControllerAddress\":\"INTokenController implemention contract address\",\"nestLedgerAddress\":\"INestLedger implemention contract address\",\"nestMiningAddress\":\"INestMining implemention contract address\",\"nestNodeAddress\":\"Address of nest node contract\",\"nestPriceFacadeAddress\":\"INestPriceFacade implemention contract address\",\"nestQueryAddress\":\"INestQuery implemention contract address\",\"nestTokenAddress\":\"Address of nest token contract\",\"nestVoteAddress\":\"INestVote implemention contract address\",\"nnIncomeAddress\":\"NNIncome contract address\"}},\"getNTokenControllerAddress()\":{\"details\":\"Get INTokenController implemention contract address\",\"returns\":{\"_0\":\"INTokenController implemention contract address\"}},\"getNestLedgerAddress()\":{\"details\":\"Get INestLedger implemention contract address\",\"returns\":{\"_0\":\"INestLedger implemention contract address\"}},\"getNestMiningAddress()\":{\"details\":\"Get INestMining implemention contract address\",\"returns\":{\"_0\":\"INestMining implemention contract address\"}},\"getNestNodeAddress()\":{\"details\":\"Get address of nest node contract\",\"returns\":{\"_0\":\"Address of nest node contract\"}},\"getNestPriceFacadeAddress()\":{\"details\":\"Get INestPriceFacade implemention contract address\",\"returns\":{\"_0\":\"INestPriceFacade implemention contract address\"}},\"getNestQueryAddress()\":{\"details\":\"Get INestQuery implemention contract address\",\"returns\":{\"_0\":\"INestQuery implemention contract address\"}},\"getNestTokenAddress()\":{\"details\":\"Get address of nest token contract\",\"returns\":{\"_0\":\"Address of nest token contract\"}},\"getNestVoteAddress()\":{\"details\":\"Get INestVote implemention contract address\",\"returns\":{\"_0\":\"INestVote implemention contract address\"}},\"getNnIncomeAddress()\":{\"details\":\"Get NNIncome contract address\",\"returns\":{\"_0\":\"NNIncome contract address\"}},\"registerAddress(string,address)\":{\"details\":\"Registered address. The address registered here is the address accepted by nest system\",\"params\":{\"addr\":\"Destination address. 0 means to delete the registration information\",\"key\":\"The key\"}},\"setBuiltinAddress(address,address,address,address,address,address,address,address,address)\":{\"details\":\"Set the built-in contract address of the system\",\"params\":{\"nTokenControllerAddress\":\"INTokenController implemention contract address\",\"nestLedgerAddress\":\"INestLedger implemention contract address\",\"nestMiningAddress\":\"INestMining implemention contract address\",\"nestNodeAddress\":\"Address of nest node contract\",\"nestPriceFacadeAddress\":\"INestPriceFacade implemention contract address\",\"nestQueryAddress\":\"INestQuery implemention contract address\",\"nestTokenAddress\":\"Address of nest token contract\",\"nestVoteAddress\":\"INestVote implemention contract address\",\"nnIncomeAddress\":\"NNIncome contract address\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/D/lianer/002.\\u9879\\u76ee/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INestMapping.sol\":\"INestMapping\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/lianer/002.\\u9879\\u76ee/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INestMapping.sol\":{\"keccak256\":\"0x398269451ca7d555434b3d8e5ffbf859882bd94e9e2676cca41b7385615714b5\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://c31e3e0ed4e40e73bee5ca305bf61fcfe54655b23c2542b8638d2d1901196377\",\"dweb:/ipfs/QmVvrKNECncnPPVCgSmL9QY4xiR726BhBKopVmbxTqtfhz\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: GPL-3.0-or-later\r\n\r\npragma solidity ^0.8.0;\r\n\r\n/// @dev The interface defines methods for nest builtin contract address mapping\r\ninterface INestMapping {\r\n\r\n    /// @dev Set the built-in contract address of the system\r\n    /// @param nestTokenAddress Address of nest token contract\r\n    /// @param nestNodeAddress Address of nest node contract\r\n    /// @param nestLedgerAddress INestLedger implemention contract address\r\n    /// @param nestMiningAddress INestMining implemention contract address\r\n    /// @param nestPriceFacadeAddress INestPriceFacade implemention contract address\r\n    /// @param nestVoteAddress INestVote implemention contract address\r\n    /// @param nestQueryAddress INestQuery implemention contract address\r\n    /// @param nnIncomeAddress NNIncome contract address\r\n    /// @param nTokenControllerAddress INTokenController implemention contract address\r\n    function setBuiltinAddress(\r\n        address nestTokenAddress,\r\n        address nestNodeAddress,\r\n        address nestLedgerAddress,\r\n        address nestMiningAddress,\r\n        address nestPriceFacadeAddress,\r\n        address nestVoteAddress,\r\n        address nestQueryAddress,\r\n        address nnIncomeAddress,\r\n        address nTokenControllerAddress\r\n    ) external;\r\n\r\n    /// @dev Set the built-in contract address of the system\r\n    /// @return nestTokenAddress Address of nest token contract\r\n    /// @return nestNodeAddress Address of nest node contract\r\n    /// @return nestLedgerAddress INestLedger implemention contract address\r\n    /// @return nestMiningAddress INestMining implemention contract address\r\n    /// @return nestPriceFacadeAddress INestPriceFacade implemention contract address\r\n    /// @return nestVoteAddress INestVote implemention contract address\r\n    /// @return nestQueryAddress INestQuery implemention contract address\r\n    /// @return nnIncomeAddress NNIncome contract address\r\n    /// @return nTokenControllerAddress INTokenController implemention contract address\r\n    function getBuiltinAddress() external view returns (\r\n        address nestTokenAddress,\r\n        address nestNodeAddress,\r\n        address nestLedgerAddress,\r\n        address nestMiningAddress,\r\n        address nestPriceFacadeAddress,\r\n        address nestVoteAddress,\r\n        address nestQueryAddress,\r\n        address nnIncomeAddress,\r\n        address nTokenControllerAddress\r\n    );\r\n\r\n    /// @dev Get address of nest token contract\r\n    /// @return Address of nest token contract\r\n    function getNestTokenAddress() external view returns (address);\r\n\r\n    /// @dev Get address of nest node contract\r\n    /// @return Address of nest node contract\r\n    function getNestNodeAddress() external view returns (address);\r\n\r\n    /// @dev Get INestLedger implemention contract address\r\n    /// @return INestLedger implemention contract address\r\n    function getNestLedgerAddress() external view returns (address);\r\n\r\n    /// @dev Get INestMining implemention contract address\r\n    /// @return INestMining implemention contract address\r\n    function getNestMiningAddress() external view returns (address);\r\n\r\n    /// @dev Get INestPriceFacade implemention contract address\r\n    /// @return INestPriceFacade implemention contract address\r\n    function getNestPriceFacadeAddress() external view returns (address);\r\n\r\n    /// @dev Get INestVote implemention contract address\r\n    /// @return INestVote implemention contract address\r\n    function getNestVoteAddress() external view returns (address);\r\n\r\n    /// @dev Get INestQuery implemention contract address\r\n    /// @return INestQuery implemention contract address\r\n    function getNestQueryAddress() external view returns (address);\r\n\r\n    /// @dev Get NNIncome contract address\r\n    /// @return NNIncome contract address\r\n    function getNnIncomeAddress() external view returns (address);\r\n\r\n    /// @dev Get INTokenController implemention contract address\r\n    /// @return INTokenController implemention contract address\r\n    function getNTokenControllerAddress() external view returns (address);\r\n\r\n    /// @dev Registered address. The address registered here is the address accepted by nest system\r\n    /// @param key The key\r\n    /// @param addr Destination address. 0 means to delete the registration information\r\n    function registerAddress(string memory key, address addr) external;\r\n\r\n    /// @dev Get registered address\r\n    /// @param key The key\r\n    /// @return Destination address. 0 means empty\r\n    function checkAddress(string memory key) external view returns (address);\r\n}",
+  "sourcePath": "D:\\lianer\\002.项目\\007.NEST3.6\\NEST-Oracle-V3.6\\contracts\\interface\\INestMapping.sol",
+  "ast": {
+    "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INestMapping.sol",
+    "exportedSymbols": {
+      "INestMapping": [
+        9771
+      ]
+    },
+    "id": 9772,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 9655,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "48:23:16"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 9656,
+          "nodeType": "StructuredDocumentation",
+          "src": "75:82:16",
+          "text": "@dev The interface defines methods for nest builtin contract address mapping"
+        },
+        "fullyImplemented": false,
+        "id": 9771,
+        "linearizedBaseContracts": [
+          9771
+        ],
+        "name": "INestMapping",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "documentation": {
+              "id": 9657,
+              "nodeType": "StructuredDocumentation",
+              "src": "189:712:16",
+              "text": "@dev Set the built-in contract address of the system\n @param nestTokenAddress Address of nest token contract\n @param nestNodeAddress Address of nest node contract\n @param nestLedgerAddress INestLedger implemention contract address\n @param nestMiningAddress INestMining implemention contract address\n @param nestPriceFacadeAddress INestPriceFacade implemention contract address\n @param nestVoteAddress INestVote implemention contract address\n @param nestQueryAddress INestQuery implemention contract address\n @param nnIncomeAddress NNIncome contract address\n @param nTokenControllerAddress INTokenController implemention contract address"
+            },
+            "functionSelector": "66365807",
+            "id": 9678,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setBuiltinAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9676,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9659,
+                  "mutability": "mutable",
+                  "name": "nestTokenAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "944:24:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9658,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "944:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9661,
+                  "mutability": "mutable",
+                  "name": "nestNodeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "979:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9660,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "979:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9663,
+                  "mutability": "mutable",
+                  "name": "nestLedgerAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1013:25:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9662,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1013:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9665,
+                  "mutability": "mutable",
+                  "name": "nestMiningAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1049:25:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9664,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1049:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9667,
+                  "mutability": "mutable",
+                  "name": "nestPriceFacadeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1085:30:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9666,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1085:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9669,
+                  "mutability": "mutable",
+                  "name": "nestVoteAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1126:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9668,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1126:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9671,
+                  "mutability": "mutable",
+                  "name": "nestQueryAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1160:24:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9670,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1160:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9673,
+                  "mutability": "mutable",
+                  "name": "nnIncomeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1195:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9672,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1195:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9675,
+                  "mutability": "mutable",
+                  "name": "nTokenControllerAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1229:31:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9674,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1229:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "933:334:16"
+            },
+            "returnParameters": {
+              "id": 9677,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1276:0:16"
+            },
+            "scope": 9771,
+            "src": "907:370:16",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9679,
+              "nodeType": "StructuredDocumentation",
+              "src": "1285:721:16",
+              "text": "@dev Set the built-in contract address of the system\n @return nestTokenAddress Address of nest token contract\n @return nestNodeAddress Address of nest node contract\n @return nestLedgerAddress INestLedger implemention contract address\n @return nestMiningAddress INestMining implemention contract address\n @return nestPriceFacadeAddress INestPriceFacade implemention contract address\n @return nestVoteAddress INestVote implemention contract address\n @return nestQueryAddress INestQuery implemention contract address\n @return nnIncomeAddress NNIncome contract address\n @return nTokenControllerAddress INTokenController implemention contract address"
+            },
+            "functionSelector": "746b56f9",
+            "id": 9700,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getBuiltinAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9680,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2038:2:16"
+            },
+            "returnParameters": {
+              "id": 9699,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9682,
+                  "mutability": "mutable",
+                  "name": "nestTokenAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2074:24:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9681,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2074:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9684,
+                  "mutability": "mutable",
+                  "name": "nestNodeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2109:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9683,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2109:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9686,
+                  "mutability": "mutable",
+                  "name": "nestLedgerAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2143:25:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9685,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2143:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9688,
+                  "mutability": "mutable",
+                  "name": "nestMiningAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2179:25:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9687,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2179:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9690,
+                  "mutability": "mutable",
+                  "name": "nestPriceFacadeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2215:30:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9689,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2215:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9692,
+                  "mutability": "mutable",
+                  "name": "nestVoteAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2256:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9691,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2256:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9694,
+                  "mutability": "mutable",
+                  "name": "nestQueryAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2290:24:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9693,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2290:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9696,
+                  "mutability": "mutable",
+                  "name": "nnIncomeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2325:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9695,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2325:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9698,
+                  "mutability": "mutable",
+                  "name": "nTokenControllerAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2359:31:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9697,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2359:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2063:334:16"
+            },
+            "scope": 9771,
+            "src": "2012:386:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9701,
+              "nodeType": "StructuredDocumentation",
+              "src": "2406:91:16",
+              "text": "@dev Get address of nest token contract\n @return Address of nest token contract"
+            },
+            "functionSelector": "6be1e8de",
+            "id": 9706,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestTokenAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9702,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2531:2:16"
+            },
+            "returnParameters": {
+              "id": 9705,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9704,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9706,
+                  "src": "2557:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9703,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2557:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2556:9:16"
+            },
+            "scope": 9771,
+            "src": "2503:63:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9707,
+              "nodeType": "StructuredDocumentation",
+              "src": "2574:89:16",
+              "text": "@dev Get address of nest node contract\n @return Address of nest node contract"
+            },
+            "functionSelector": "797530ab",
+            "id": 9712,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestNodeAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9708,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2696:2:16"
+            },
+            "returnParameters": {
+              "id": 9711,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9710,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9712,
+                  "src": "2722:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9709,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2722:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2721:9:16"
+            },
+            "scope": 9771,
+            "src": "2669:62:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9713,
+              "nodeType": "StructuredDocumentation",
+              "src": "2739:113:16",
+              "text": "@dev Get INestLedger implemention contract address\n @return INestLedger implemention contract address"
+            },
+            "functionSelector": "8df18bb5",
+            "id": 9718,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestLedgerAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9714,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2887:2:16"
+            },
+            "returnParameters": {
+              "id": 9717,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9716,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9718,
+                  "src": "2913:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9715,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2913:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2912:9:16"
+            },
+            "scope": 9771,
+            "src": "2858:64:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9719,
+              "nodeType": "StructuredDocumentation",
+              "src": "2930:113:16",
+              "text": "@dev Get INestMining implemention contract address\n @return INestMining implemention contract address"
+            },
+            "functionSelector": "181054f2",
+            "id": 9724,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestMiningAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9720,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3078:2:16"
+            },
+            "returnParameters": {
+              "id": 9723,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9722,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9724,
+                  "src": "3104:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9721,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3104:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3103:9:16"
+            },
+            "scope": 9771,
+            "src": "3049:64:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9725,
+              "nodeType": "StructuredDocumentation",
+              "src": "3121:123:16",
+              "text": "@dev Get INestPriceFacade implemention contract address\n @return INestPriceFacade implemention contract address"
+            },
+            "functionSelector": "161e3eac",
+            "id": 9730,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestPriceFacadeAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9726,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3284:2:16"
+            },
+            "returnParameters": {
+              "id": 9729,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9728,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9730,
+                  "src": "3310:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9727,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3310:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3309:9:16"
+            },
+            "scope": 9771,
+            "src": "3250:69:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9731,
+              "nodeType": "StructuredDocumentation",
+              "src": "3327:109:16",
+              "text": "@dev Get INestVote implemention contract address\n @return INestVote implemention contract address"
+            },
+            "functionSelector": "c6d651c1",
+            "id": 9736,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestVoteAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9732,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3469:2:16"
+            },
+            "returnParameters": {
+              "id": 9735,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9734,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9736,
+                  "src": "3495:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9733,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3495:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3494:9:16"
+            },
+            "scope": 9771,
+            "src": "3442:62:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9737,
+              "nodeType": "StructuredDocumentation",
+              "src": "3512:111:16",
+              "text": "@dev Get INestQuery implemention contract address\n @return INestQuery implemention contract address"
+            },
+            "functionSelector": "1218e86e",
+            "id": 9742,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestQueryAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9738,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3657:2:16"
+            },
+            "returnParameters": {
+              "id": 9741,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9740,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9742,
+                  "src": "3683:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9739,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3683:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3682:9:16"
+            },
+            "scope": 9771,
+            "src": "3629:63:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9743,
+              "nodeType": "StructuredDocumentation",
+              "src": "3700:81:16",
+              "text": "@dev Get NNIncome contract address\n @return NNIncome contract address"
+            },
+            "functionSelector": "3204bcef",
+            "id": 9748,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNnIncomeAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9744,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3814:2:16"
+            },
+            "returnParameters": {
+              "id": 9747,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9746,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9748,
+                  "src": "3840:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9745,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3840:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3839:9:16"
+            },
+            "scope": 9771,
+            "src": "3787:62:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9749,
+              "nodeType": "StructuredDocumentation",
+              "src": "3857:125:16",
+              "text": "@dev Get INTokenController implemention contract address\n @return INTokenController implemention contract address"
+            },
+            "functionSelector": "62c7727a",
+            "id": 9754,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNTokenControllerAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9750,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "4023:2:16"
+            },
+            "returnParameters": {
+              "id": 9753,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9752,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9754,
+                  "src": "4049:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9751,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "4049:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "4048:9:16"
+            },
+            "scope": 9771,
+            "src": "3988:70:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9755,
+              "nodeType": "StructuredDocumentation",
+              "src": "4066:212:16",
+              "text": "@dev Registered address. The address registered here is the address accepted by nest system\n @param key The key\n @param addr Destination address. 0 means to delete the registration information"
+            },
+            "functionSelector": "b13f5f19",
+            "id": 9762,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "registerAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9760,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9757,
+                  "mutability": "mutable",
+                  "name": "key",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9762,
+                  "src": "4309:17:16",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 9756,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "4309:6:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9759,
+                  "mutability": "mutable",
+                  "name": "addr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9762,
+                  "src": "4328:12:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9758,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "4328:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "4308:33:16"
+            },
+            "returnParameters": {
+              "id": 9761,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "4350:0:16"
+            },
+            "scope": 9771,
+            "src": "4284:67:16",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9763,
+              "nodeType": "StructuredDocumentation",
+              "src": "4359:111:16",
+              "text": "@dev Get registered address\n @param key The key\n @return Destination address. 0 means empty"
+            },
+            "functionSelector": "8fe77e86",
+            "id": 9770,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "checkAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9766,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9765,
+                  "mutability": "mutable",
+                  "name": "key",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9770,
+                  "src": "4498:17:16",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 9764,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "4498:6:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "4497:19:16"
+            },
+            "returnParameters": {
+              "id": 9769,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9768,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9770,
+                  "src": "4540:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9767,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "4540:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "4539:9:16"
+            },
+            "scope": 9771,
+            "src": "4476:73:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 9772,
+        "src": "157:4395:16"
+      }
+    ],
+    "src": "48:4504:16"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/INestMapping.sol",
+    "exportedSymbols": {
+      "INestMapping": [
+        9771
+      ]
+    },
+    "id": 9772,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 9655,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "48:23:16"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 9656,
+          "nodeType": "StructuredDocumentation",
+          "src": "75:82:16",
+          "text": "@dev The interface defines methods for nest builtin contract address mapping"
+        },
+        "fullyImplemented": false,
+        "id": 9771,
+        "linearizedBaseContracts": [
+          9771
+        ],
+        "name": "INestMapping",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "documentation": {
+              "id": 9657,
+              "nodeType": "StructuredDocumentation",
+              "src": "189:712:16",
+              "text": "@dev Set the built-in contract address of the system\n @param nestTokenAddress Address of nest token contract\n @param nestNodeAddress Address of nest node contract\n @param nestLedgerAddress INestLedger implemention contract address\n @param nestMiningAddress INestMining implemention contract address\n @param nestPriceFacadeAddress INestPriceFacade implemention contract address\n @param nestVoteAddress INestVote implemention contract address\n @param nestQueryAddress INestQuery implemention contract address\n @param nnIncomeAddress NNIncome contract address\n @param nTokenControllerAddress INTokenController implemention contract address"
+            },
+            "functionSelector": "66365807",
+            "id": 9678,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setBuiltinAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9676,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9659,
+                  "mutability": "mutable",
+                  "name": "nestTokenAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "944:24:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9658,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "944:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9661,
+                  "mutability": "mutable",
+                  "name": "nestNodeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "979:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9660,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "979:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9663,
+                  "mutability": "mutable",
+                  "name": "nestLedgerAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1013:25:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9662,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1013:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9665,
+                  "mutability": "mutable",
+                  "name": "nestMiningAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1049:25:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9664,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1049:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9667,
+                  "mutability": "mutable",
+                  "name": "nestPriceFacadeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1085:30:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9666,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1085:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9669,
+                  "mutability": "mutable",
+                  "name": "nestVoteAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1126:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9668,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1126:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9671,
+                  "mutability": "mutable",
+                  "name": "nestQueryAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1160:24:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9670,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1160:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9673,
+                  "mutability": "mutable",
+                  "name": "nnIncomeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1195:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9672,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1195:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9675,
+                  "mutability": "mutable",
+                  "name": "nTokenControllerAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9678,
+                  "src": "1229:31:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9674,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1229:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "933:334:16"
+            },
+            "returnParameters": {
+              "id": 9677,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1276:0:16"
+            },
+            "scope": 9771,
+            "src": "907:370:16",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9679,
+              "nodeType": "StructuredDocumentation",
+              "src": "1285:721:16",
+              "text": "@dev Set the built-in contract address of the system\n @return nestTokenAddress Address of nest token contract\n @return nestNodeAddress Address of nest node contract\n @return nestLedgerAddress INestLedger implemention contract address\n @return nestMiningAddress INestMining implemention contract address\n @return nestPriceFacadeAddress INestPriceFacade implemention contract address\n @return nestVoteAddress INestVote implemention contract address\n @return nestQueryAddress INestQuery implemention contract address\n @return nnIncomeAddress NNIncome contract address\n @return nTokenControllerAddress INTokenController implemention contract address"
+            },
+            "functionSelector": "746b56f9",
+            "id": 9700,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getBuiltinAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9680,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2038:2:16"
+            },
+            "returnParameters": {
+              "id": 9699,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9682,
+                  "mutability": "mutable",
+                  "name": "nestTokenAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2074:24:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9681,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2074:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9684,
+                  "mutability": "mutable",
+                  "name": "nestNodeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2109:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9683,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2109:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9686,
+                  "mutability": "mutable",
+                  "name": "nestLedgerAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2143:25:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9685,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2143:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9688,
+                  "mutability": "mutable",
+                  "name": "nestMiningAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2179:25:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9687,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2179:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9690,
+                  "mutability": "mutable",
+                  "name": "nestPriceFacadeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2215:30:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9689,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2215:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9692,
+                  "mutability": "mutable",
+                  "name": "nestVoteAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2256:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9691,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2256:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9694,
+                  "mutability": "mutable",
+                  "name": "nestQueryAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2290:24:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9693,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2290:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9696,
+                  "mutability": "mutable",
+                  "name": "nnIncomeAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2325:23:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9695,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2325:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9698,
+                  "mutability": "mutable",
+                  "name": "nTokenControllerAddress",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9700,
+                  "src": "2359:31:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9697,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2359:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2063:334:16"
+            },
+            "scope": 9771,
+            "src": "2012:386:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9701,
+              "nodeType": "StructuredDocumentation",
+              "src": "2406:91:16",
+              "text": "@dev Get address of nest token contract\n @return Address of nest token contract"
+            },
+            "functionSelector": "6be1e8de",
+            "id": 9706,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestTokenAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9702,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2531:2:16"
+            },
+            "returnParameters": {
+              "id": 9705,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9704,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9706,
+                  "src": "2557:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9703,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2557:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2556:9:16"
+            },
+            "scope": 9771,
+            "src": "2503:63:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9707,
+              "nodeType": "StructuredDocumentation",
+              "src": "2574:89:16",
+              "text": "@dev Get address of nest node contract\n @return Address of nest node contract"
+            },
+            "functionSelector": "797530ab",
+            "id": 9712,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestNodeAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9708,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2696:2:16"
+            },
+            "returnParameters": {
+              "id": 9711,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9710,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9712,
+                  "src": "2722:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9709,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2722:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2721:9:16"
+            },
+            "scope": 9771,
+            "src": "2669:62:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9713,
+              "nodeType": "StructuredDocumentation",
+              "src": "2739:113:16",
+              "text": "@dev Get INestLedger implemention contract address\n @return INestLedger implemention contract address"
+            },
+            "functionSelector": "8df18bb5",
+            "id": 9718,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestLedgerAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9714,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2887:2:16"
+            },
+            "returnParameters": {
+              "id": 9717,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9716,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9718,
+                  "src": "2913:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9715,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2913:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2912:9:16"
+            },
+            "scope": 9771,
+            "src": "2858:64:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9719,
+              "nodeType": "StructuredDocumentation",
+              "src": "2930:113:16",
+              "text": "@dev Get INestMining implemention contract address\n @return INestMining implemention contract address"
+            },
+            "functionSelector": "181054f2",
+            "id": 9724,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestMiningAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9720,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3078:2:16"
+            },
+            "returnParameters": {
+              "id": 9723,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9722,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9724,
+                  "src": "3104:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9721,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3104:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3103:9:16"
+            },
+            "scope": 9771,
+            "src": "3049:64:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9725,
+              "nodeType": "StructuredDocumentation",
+              "src": "3121:123:16",
+              "text": "@dev Get INestPriceFacade implemention contract address\n @return INestPriceFacade implemention contract address"
+            },
+            "functionSelector": "161e3eac",
+            "id": 9730,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestPriceFacadeAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9726,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3284:2:16"
+            },
+            "returnParameters": {
+              "id": 9729,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9728,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9730,
+                  "src": "3310:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9727,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3310:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3309:9:16"
+            },
+            "scope": 9771,
+            "src": "3250:69:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9731,
+              "nodeType": "StructuredDocumentation",
+              "src": "3327:109:16",
+              "text": "@dev Get INestVote implemention contract address\n @return INestVote implemention contract address"
+            },
+            "functionSelector": "c6d651c1",
+            "id": 9736,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestVoteAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9732,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3469:2:16"
+            },
+            "returnParameters": {
+              "id": 9735,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9734,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9736,
+                  "src": "3495:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9733,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3495:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3494:9:16"
+            },
+            "scope": 9771,
+            "src": "3442:62:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9737,
+              "nodeType": "StructuredDocumentation",
+              "src": "3512:111:16",
+              "text": "@dev Get INestQuery implemention contract address\n @return INestQuery implemention contract address"
+            },
+            "functionSelector": "1218e86e",
+            "id": 9742,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNestQueryAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9738,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3657:2:16"
+            },
+            "returnParameters": {
+              "id": 9741,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9740,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9742,
+                  "src": "3683:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9739,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3683:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3682:9:16"
+            },
+            "scope": 9771,
+            "src": "3629:63:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9743,
+              "nodeType": "StructuredDocumentation",
+              "src": "3700:81:16",
+              "text": "@dev Get NNIncome contract address\n @return NNIncome contract address"
+            },
+            "functionSelector": "3204bcef",
+            "id": 9748,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNnIncomeAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9744,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3814:2:16"
+            },
+            "returnParameters": {
+              "id": 9747,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9746,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9748,
+                  "src": "3840:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9745,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3840:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3839:9:16"
+            },
+            "scope": 9771,
+            "src": "3787:62:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9749,
+              "nodeType": "StructuredDocumentation",
+              "src": "3857:125:16",
+              "text": "@dev Get INTokenController implemention contract address\n @return INTokenController implemention contract address"
+            },
+            "functionSelector": "62c7727a",
+            "id": 9754,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNTokenControllerAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9750,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "4023:2:16"
+            },
+            "returnParameters": {
+              "id": 9753,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9752,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9754,
+                  "src": "4049:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9751,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "4049:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "4048:9:16"
+            },
+            "scope": 9771,
+            "src": "3988:70:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9755,
+              "nodeType": "StructuredDocumentation",
+              "src": "4066:212:16",
+              "text": "@dev Registered address. The address registered here is the address accepted by nest system\n @param key The key\n @param addr Destination address. 0 means to delete the registration information"
+            },
+            "functionSelector": "b13f5f19",
+            "id": 9762,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "registerAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9760,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9757,
+                  "mutability": "mutable",
+                  "name": "key",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9762,
+                  "src": "4309:17:16",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 9756,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "4309:6:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 9759,
+                  "mutability": "mutable",
+                  "name": "addr",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9762,
+                  "src": "4328:12:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9758,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "4328:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "4308:33:16"
+            },
+            "returnParameters": {
+              "id": 9761,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "4350:0:16"
+            },
+            "scope": 9771,
+            "src": "4284:67:16",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "documentation": {
+              "id": 9763,
+              "nodeType": "StructuredDocumentation",
+              "src": "4359:111:16",
+              "text": "@dev Get registered address\n @param key The key\n @return Destination address. 0 means empty"
+            },
+            "functionSelector": "8fe77e86",
+            "id": 9770,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "checkAddress",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9766,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9765,
+                  "mutability": "mutable",
+                  "name": "key",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9770,
+                  "src": "4498:17:16",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 9764,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "4498:6:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "4497:19:16"
+            },
+            "returnParameters": {
+              "id": 9769,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 9768,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9770,
+                  "src": "4540:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 9767,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "4540:7:16",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "4539:9:16"
+            },
+            "scope": 9771,
+            "src": "4476:73:16",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 9772,
+        "src": "157:4395:16"
+      }
+    ],
+    "src": "48:4504:16"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-03-24T02:34:48.907Z",
+  "devdoc": {
+    "details": "The interface defines methods for nest builtin contract address mapping",
+    "kind": "dev",
+    "methods": {
+      "checkAddress(string)": {
+        "details": "Get registered address",
+        "params": {
+          "key": "The key"
+        },
+        "returns": {
+          "_0": "Destination address. 0 means empty"
+        }
+      },
+      "getBuiltinAddress()": {
+        "details": "Set the built-in contract address of the system",
+        "returns": {
+          "nTokenControllerAddress": "INTokenController implemention contract address",
+          "nestLedgerAddress": "INestLedger implemention contract address",
+          "nestMiningAddress": "INestMining implemention contract address",
+          "nestNodeAddress": "Address of nest node contract",
+          "nestPriceFacadeAddress": "INestPriceFacade implemention contract address",
+          "nestQueryAddress": "INestQuery implemention contract address",
+          "nestTokenAddress": "Address of nest token contract",
+          "nestVoteAddress": "INestVote implemention contract address",
+          "nnIncomeAddress": "NNIncome contract address"
+        }
+      },
+      "getNTokenControllerAddress()": {
+        "details": "Get INTokenController implemention contract address",
+        "returns": {
+          "_0": "INTokenController implemention contract address"
+        }
+      },
+      "getNestLedgerAddress()": {
+        "details": "Get INestLedger implemention contract address",
+        "returns": {
+          "_0": "INestLedger implemention contract address"
+        }
+      },
+      "getNestMiningAddress()": {
+        "details": "Get INestMining implemention contract address",
+        "returns": {
+          "_0": "INestMining implemention contract address"
+        }
+      },
+      "getNestNodeAddress()": {
+        "details": "Get address of nest node contract",
+        "returns": {
+          "_0": "Address of nest node contract"
+        }
+      },
+      "getNestPriceFacadeAddress()": {
+        "details": "Get INestPriceFacade implemention contract address",
+        "returns": {
+          "_0": "INestPriceFacade implemention contract address"
+        }
+      },
+      "getNestQueryAddress()": {
+        "details": "Get INestQuery implemention contract address",
+        "returns": {
+          "_0": "INestQuery implemention contract address"
+        }
+      },
+      "getNestTokenAddress()": {
+        "details": "Get address of nest token contract",
+        "returns": {
+          "_0": "Address of nest token contract"
+        }
+      },
+      "getNestVoteAddress()": {
+        "details": "Get INestVote implemention contract address",
+        "returns": {
+          "_0": "INestVote implemention contract address"
+        }
+      },
+      "getNnIncomeAddress()": {
+        "details": "Get NNIncome contract address",
+        "returns": {
+          "_0": "NNIncome contract address"
+        }
+      },
+      "registerAddress(string,address)": {
+        "details": "Registered address. The address registered here is the address accepted by nest system",
+        "params": {
+          "addr": "Destination address. 0 means to delete the registration information",
+          "key": "The key"
+        }
+      },
+      "setBuiltinAddress(address,address,address,address,address,address,address,address,address)": {
+        "details": "Set the built-in contract address of the system",
+        "params": {
+          "nTokenControllerAddress": "INTokenController implemention contract address",
+          "nestLedgerAddress": "INestLedger implemention contract address",
+          "nestMiningAddress": "INestMining implemention contract address",
+          "nestNodeAddress": "Address of nest node contract",
+          "nestPriceFacadeAddress": "INestPriceFacade implemention contract address",
+          "nestQueryAddress": "INestQuery implemention contract address",
+          "nestTokenAddress": "Address of nest token contract",
+          "nestVoteAddress": "INestVote implemention contract address",
+          "nnIncomeAddress": "NNIncome contract address"
+        }
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

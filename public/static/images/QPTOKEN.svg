@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="ntoken" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 40" style="enable-background:new 0 0 80 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.75;fill-rule:evenodd;clip-rule:evenodd;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'AlibabaSans-Medium';}
+	.st3{font-size:14px;}
+</style>
+<path class="st0" d="M40,0c14.43,0,27.955,1.92,39.645,5.262C77.066,24.865,60.306,40,40,40S2.934,24.865,0.356,5.262
+	C12.045,1.92,25.57,0,40,0z"/>
+<text transform="matrix(1 0 0 1 8.6475 23.2643)" class="st1 st2 st3">QP Token</text>
+</svg>

@@ -1,0 +1,67 @@
+@import "/styles/common";
+.container {
+  position: relative;
+  margin-top: 21px;
+  padding: 0 20px;
+  height: 80px;
+  border-radius: 8px;
+  background: var(--listcard);
+  display: flex;
+  align-items: center;
+  &:first-child {
+    margin-top: 0;
+  }
+  &:hover:before {
+    background: var(--webcolor5);
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    content: ' ';
+  }
+  img {
+    width: 48px;
+    height: 48px;
+  }
+}
+.star {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  color: var(--textWhite30);
+  cursor: pointer;
+}
+.favorite {
+  color: var(--webcolor2);
+}
+.pair {
+  position: relative;
+  z-index: 1;
+  color: var(--textWhite);
+  margin-left: 17px;
+  flex: 1;
+}
+.btns {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+.btn {
+  display: block;
+  padding: 12px 50px;
+  margin-left: 40px;
+  color: var(--textWhite60);
+  &:first-child {
+    margin-left: 0;
+  }
+  &:hover {
+    background: var(--webcolor2);
+    box-shadow: var(--btnShadow);
+    border-radius: 24px;
+    color: var(--textWhite);
+  }
+}

@@ -1,0 +1,8 @@
+@import "/styles/common";
+.container {
+  flex: 1;
+  background-color: var(--background);
+  overflow: auto;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}

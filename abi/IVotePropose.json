@@ -1,0 +1,204 @@
+{
+  "contractName": "IVotePropose",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "run",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"run\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Interface to be implemented for voting contract\",\"kind\":\"dev\",\"methods\":{\"run()\":{\"details\":\"Methods to be called after approved\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/D/lianer/002.\\u9879\\u76ee/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/IVotePropose.sol\":\"IVotePropose\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/lianer/002.\\u9879\\u76ee/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/IVotePropose.sol\":{\"keccak256\":\"0x5bb4aa012f019497c9be18610e3477578b55df7ca045d20961e843d9a4782189\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://583213691fa42390c2fa04041c831ad8dfe358d5738955c14661a8423af8b6be\",\"dweb:/ipfs/Qma7pqyAPrBC2QrgHDTsiXThGGZoRrB33n3X2i7dhz9Jms\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: GPL-3.0-or-later\r\n\r\npragma solidity ^0.8.0;\r\n\r\n/// @dev Interface to be implemented for voting contract\r\ninterface IVotePropose {\r\n\r\n    /// @dev Methods to be called after approved\r\n    function run() external;\r\n}",
+  "sourcePath": "D:\\lianer\\002.项目\\007.NEST3.6\\NEST-Oracle-V3.6\\contracts\\interface\\IVotePropose.sol",
+  "ast": {
+    "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/IVotePropose.sol",
+    "exportedSymbols": {
+      "IVotePropose": [
+        10555
+      ]
+    },
+    "id": 10556,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 10549,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "48:23:23"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 10550,
+          "nodeType": "StructuredDocumentation",
+          "src": "75:58:23",
+          "text": "@dev Interface to be implemented for voting contract"
+        },
+        "fullyImplemented": false,
+        "id": 10555,
+        "linearizedBaseContracts": [
+          10555
+        ],
+        "name": "IVotePropose",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "documentation": {
+              "id": 10551,
+              "nodeType": "StructuredDocumentation",
+              "src": "165:44:23",
+              "text": "@dev Methods to be called after approved"
+            },
+            "functionSelector": "c0406226",
+            "id": 10554,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "run",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10552,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "227:2:23"
+            },
+            "returnParameters": {
+              "id": 10553,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "238:0:23"
+            },
+            "scope": 10555,
+            "src": "215:24:23",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 10556,
+        "src": "133:109:23"
+      }
+    ],
+    "src": "48:194:23"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/lianer/002.项目/007.NEST3.6/NEST-Oracle-V3.6/contracts/interface/IVotePropose.sol",
+    "exportedSymbols": {
+      "IVotePropose": [
+        10555
+      ]
+    },
+    "id": 10556,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 10549,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "48:23:23"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 10550,
+          "nodeType": "StructuredDocumentation",
+          "src": "75:58:23",
+          "text": "@dev Interface to be implemented for voting contract"
+        },
+        "fullyImplemented": false,
+        "id": 10555,
+        "linearizedBaseContracts": [
+          10555
+        ],
+        "name": "IVotePropose",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "documentation": {
+              "id": 10551,
+              "nodeType": "StructuredDocumentation",
+              "src": "165:44:23",
+              "text": "@dev Methods to be called after approved"
+            },
+            "functionSelector": "c0406226",
+            "id": 10554,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "run",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 10552,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "227:2:23"
+            },
+            "returnParameters": {
+              "id": 10553,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "238:0:23"
+            },
+            "scope": 10555,
+            "src": "215:24:23",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 10556,
+        "src": "133:109:23"
+      }
+    ],
+    "src": "48:194:23"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-03-24T02:34:48.957Z",
+  "devdoc": {
+    "details": "Interface to be implemented for voting contract",
+    "kind": "dev",
+    "methods": {
+      "run()": {
+        "details": "Methods to be called after approved"
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
